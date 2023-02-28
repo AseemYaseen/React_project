@@ -9,7 +9,7 @@ const LeftSidebar = () => {
   const handleClick=()=>{
     localStorage.clear();
     toast.success('successfully logout 🙁')
-    navigate('/')
+    sessionStorage.clear();
 }
   return (
     <div className="iq-sidebar  sidebar-default ">
@@ -35,7 +35,7 @@ const LeftSidebar = () => {
                 </li>
 
                 <li className=" " onClick={handleClick}>
-                  <a  className>
+                  <a  className  href='/'>
                     <i className="ri-login-box-line"  /><span>Logout</span>
                   </a>
                 </li>

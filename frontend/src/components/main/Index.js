@@ -395,7 +395,7 @@ const Index = () => {
                                                                     <hr />
 
 
-                                                                    <img id={`imgPost${post.post_id}`} className="img-thumnail rounded w-100" src={require(`../images/${post.post_image}`)} alt='' />
+                                                                    {/* <img id={`imgPost${post.post_id}`} className="img-thumnail rounded w-100" src={require(`../images/${post.post_image}`)} alt='' /> */}
 
 
                                                                 </div>
